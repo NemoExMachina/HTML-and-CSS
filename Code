@@ -1,0 +1,594 @@
+For Blog:
+<html>
+<head>
+	<title>Blog</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="topnav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>My Blog</h1>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="content-wrapper">
+      
+      <!-- Main Blog Section -->
+      <div class="main-content">
+        <div class="blog-post">
+          <h2>My First Blog</h2>
+          <p>Hello, and welcome to my little corner of the internet! I’m just a dude trying to meet as many people as I can, and I created this space to share my thoughts, ideas, and 			experiences with anyone who’s interested...</p>
+          <a href="#">Read More</a>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comments-section">
+          <h3>Leave a Comment</h3>
+          <form>
+            <input type="text" placeholder="Your Name" required>
+            <textarea placeholder="Write your comment here..." required></textarea>
+            <button type="submit">Post Comment</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Sidebar Section -->
+      <aside class="sidebar">
+        <div class="about-me">
+          <h3>About Me</h3>
+          <p>Hi! I’m a passionate writer and thinker, sharing my journey through life. Join me in exploring ideas, stories, and inspiration.</p>
+        </div>
+        <div class="recent-posts">
+          <h3>Recent Posts</h3>
+          <ul>
+            <li><a href="#">My First Blog</a></li>
+            <li><a href="#">The Power of Positivity</a></li>
+            <li><a href="#">Lessons from Failure</a></li>
+          </ul>
+        </div>
+        <div class="categories">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Personal Growth</a></li>
+            <li><a href="#">Life Lessons</a></li>
+            <li><a href="#">Travel</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
+
+For styling:
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F3F4F6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Top Navigation Bar */
+.topnav {
+  background-color: #1E3A8A;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #93C5FD;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #10B981;
+  color: white;
+}
+
+/* Header Styles */
+header {
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-left: 20px;
+}
+
+/* Blog Container Styles */
+.blog-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  background-color: #E5E7EB;
+}
+
+.main-content {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.blog-post {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  color: #1E3A8A;
+}
+
+.blog-post p {
+  color: #374151;
+}
+
+.blog-post a {
+  color: #2563EB;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog-post a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li a {
+  color: #2563EB;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+
+.sidebar li a:hover {
+  text-decoration: underline;
+}
+
+/* Comment Section */
+.comments-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comments-section h3 {
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
+
+.comments-section input,
+.comments-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments-section button {
+  background-color: #10B981;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comments-section button:hover {
+  background-color: #059669;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+For Online Newspaper:
+<html>
+<head>
+  <title>Online Newspaper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="topnav">
+    <a href="#">Home</a>
+    <a href="#">World</a>
+    <a href="#">Politics</a>
+    <a href="#">Business</a>
+    <a href="#">Technology</a>
+    <a href="#">Sports</a>
+    <a href="#">Entertainment</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <h1>Daily News</h1>
+      <p>Your Source for Reliable News</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="content-wrapper">
+      
+      <!-- Main News Section -->
+      <div class="main-content">
+        <div class="news-article">
+          <h2>Breaking News: Major Event Unfolds</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+          <a href="#">Read More</a>
+        </div>
+
+        <div class="news-article">
+          <h2>Technology Advances in AI</h2>
+          <p>Artificial intelligence is revolutionizing the industry. Find out how...</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Section -->
+      <aside class="sidebar">
+        <div class="latest-news">
+          <h3>Latest News</h3>
+          <ul>
+            <li><a href="#">Stock Market Update</a></li>
+            <li><a href="#">New Laws Passed</a></li>
+            <li><a href="#">Sports Championship Highlights</a></li>
+          </ul>
+        </div>
+
+        <div class="categories">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Business</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
+
+For styling:
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F3F4F6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Top Navigation Bar */
+.topnav {
+  background-color: #1E3A8A;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.topnav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: inline-block;
+}
+
+.topnav a:hover {
+  background-color: #93C5FD;
+  color: black;
+}
+
+/* Header Styles */
+header {
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Main Content Layout */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.main-content {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.news-article {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h2 {
+  color: #1E3A8A;
+}
+
+.news-article p {
+  color: #374151;
+}
+
+.news-article a {
+  color: #2563EB;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-article a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li a {
+  color: #2563EB;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+
+.sidebar li a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+For CV:
+<html>
+	<head>
+		<title>My CV</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+<header>
+    <div class="container">
+      <h1>John Doe</h1>
+      <p>Mechanical Engineer | Problem Solver | Innovator</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="content-wrapper">
+      
+      <!-- Main CV Content -->
+      <div class="main-content">
+        <section class="cv-section">
+          <h2>About Me</h2>
+          <p>Experienced mechanical engineer with a passion for designing innovative solutions and improving efficiency in industrial processes.</p>
+        </section>
+
+        <section class="cv-section">
+          <h2>Experience</h2>
+          <div class="cv-item">
+            <h3>Senior Mechanical Engineer</h3>
+            <p>ABC Engineering, 2020 - Present</p>
+            <ul>
+              <li>Designed and optimized manufacturing systems</li>
+              <li>Led a team of engineers on major projects</li>
+            </ul>
+          </div>
+
+          <div class="cv-item">
+            <h3>Mechanical Engineer</h3>
+            <p>XYZ Industries, 2015 - 2020</p>
+            <ul>
+              <li>Developed energy-efficient solutions</li>
+              <li>Conducted extensive product testing</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Sidebar Section -->
+      <aside class="sidebar">
+        <section class="cv-section">
+          <h3>Skills</h3>
+          <ul>
+            <li>3D CAD Design</li>
+            <li>Finite Element Analysis</li>
+            <li>Project Management</li>
+          </ul>
+        </section>
+
+        <section class="cv-section">
+          <h3>Education</h3>
+          <p>Bachelor of Mechanical Engineering</p>
+          <p>University of Technology, 2011 - 2015</p>
+        </section>
+      </aside>
+    </div>
+  </div>
+</body>
+</html>
+
+For styling:
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F3F4F6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Main Content Layout */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.main-content {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.cv-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cv-section h2, .cv-section h3 {
+  color: #1E3A8A;
+}
+
+.cv-section p, .cv-section ul {
+  color: #374151;
+}
+
+.cv-section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+  color: #1E3A8A;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  padding: 8px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #1E3A8A;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
