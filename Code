@@ -2,43 +2,24 @@ For Blog:
 <html>
 <head>
 	<title>Blog</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="blog.css">
 </head>
 <body>
-  <!-- Navigation Bar -->
-  <nav class="topnav">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Blog</a>
-    <a href="#">Contact</a>
-  </nav>
-
   <!-- Header Section -->
   <header>
     <div class="container">
       <h1>My Blog</h1>
     </div>
   </header>
-
   <div class="container">
     <div class="content-wrapper">
-      
+
       <!-- Main Blog Section -->
       <div class="main-content">
         <div class="blog-post">
           <h2>My First Blog</h2>
           <p>Hello, and welcome to my little corner of the internet! I’m just a dude trying to meet as many people as I can, and I created this space to share my thoughts, ideas, and 			experiences with anyone who’s interested...</p>
           <a href="#">Read More</a>
-        </div>
-
-        <!-- Comment Section -->
-        <div class="comments-section">
-          <h3>Leave a Comment</h3>
-          <form>
-            <input type="text" placeholder="Your Name" required>
-            <textarea placeholder="Write your comment here..." required></textarea>
-            <button type="submit">Post Comment</button>
-          </form>
         </div>
       </div>
 
@@ -57,14 +38,6 @@ For Blog:
           </ul>
         </div>
         <div class="categories">
-          <h3>Categories</h3>
-          <ul>
-            <li><a href="#">Personal Growth</a></li>
-            <li><a href="#">Life Lessons</a></li>
-            <li><a href="#">Travel</a></li>
-          </ul>
-        </div>
-      </aside>
     </div>
   </div>
 </body>
@@ -79,7 +52,7 @@ For styling:
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   line-height: 1.6;
   background-color: #F3F4F6;
 }
@@ -89,34 +62,9 @@ body {
   margin: 0 auto;
 }
 
-/* Top Navigation Bar */
-.topnav {
-  background-color: #1E3A8A;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-.topnav a:hover {
-  background-color: #93C5FD;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #10B981;
-  color: white;
-}
-
 /* Header Styles */
 header {
-  background-color: #1E3A8A;
+  background-color: #8E0101;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -124,19 +72,6 @@ header {
 
 header h1 {
   margin-left: 20px;
-}
-
-/* Blog Container Styles */
-.blog-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0;
-  background-color: #E5E7EB;
-}
-
-.main-content {
-  flex: 2;
-  margin-right: 20px;
 }
 
 .blog-post {
@@ -151,18 +86,11 @@ header h1 {
   color: #1E3A8A;
 }
 
-.blog-post p {
-  color: #374151;
-}
 
 .blog-post a {
   color: #2563EB;
   text-decoration: none;
   font-weight: bold;
-}
-
-.blog-post a:hover {
-  text-decoration: underline;
 }
 
 /* Sidebar Styles */
@@ -194,52 +122,8 @@ header h1 {
   text-decoration: underline;
 }
 
-/* Comment Section */
-.comments-section {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.comments-section h3 {
-  color: #1E3A8A;
-  margin-bottom: 10px;
-}
-
-.comments-section input,
-.comments-section textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.comments-section button {
-  background-color: #10B981;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.comments-section button:hover {
-  background-color: #059669;
-}
-
-/* Footer Styles */
-footer {
-  background-color: #1E3A8A;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 20px;
-}
-
-
 For Online Newspaper:
+
 <html>
 <head>
   <title>Online Newspaper</title>
@@ -256,7 +140,6 @@ For Online Newspaper:
     <a href="#">Technology</a>
     <a href="#">Sports</a>
     <a href="#">Entertainment</a>
-    <a href="#">Contact</a>
   </nav>
 
   <!-- Header Section -->
@@ -274,7 +157,7 @@ For Online Newspaper:
       <div class="main-content">
         <div class="news-article">
           <h2>Breaking News: Major Event Unfolds</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+          <p>Jesus Christ spotted walking in the mall giving bread and alcohol to passersby...</p>
           <a href="#">Read More</a>
         </div>
 
@@ -295,15 +178,6 @@ For Online Newspaper:
             <li><a href="#">Sports Championship Highlights</a></li>
           </ul>
         </div>
-
-        <div class="categories">
-          <h3>Categories</h3>
-          <ul>
-            <li><a href="#">World</a></li>
-            <li><a href="#">Politics</a></li>
-            <li><a href="#">Business</a></li>
-          </ul>
-        </div>
       </aside>
     </div>
   </div>
@@ -321,7 +195,6 @@ For styling:
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #F3F4F6;
 }
 
 .container {
@@ -331,7 +204,7 @@ body {
 
 /* Top Navigation Bar */
 .topnav {
-  background-color: #1E3A8A;
+  background-color: #000000;
   overflow: hidden;
   padding: 10px 0;
   text-align: center;
@@ -342,11 +215,6 @@ body {
   text-decoration: none;
   padding: 14px 20px;
   display: inline-block;
-}
-
-.topnav a:hover {
-  background-color: #93C5FD;
-  color: black;
 }
 
 /* Header Styles */
@@ -377,38 +245,6 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.news-article h2 {
-  color: #1E3A8A;
-}
-
-.news-article p {
-  color: #374151;
-}
-
-.news-article a {
-  color: #2563EB;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.news-article a:hover {
-  text-decoration: underline;
-}
-
-/* Sidebar Styles */
-.sidebar {
-  flex: 1;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.sidebar h3 {
-  color: #1E3A8A;
-  margin-bottom: 10px;
-}
-
 .sidebar ul {
   list-style: none;
 }
@@ -417,20 +253,11 @@ header {
   color: #2563EB;
   text-decoration: none;
   display: block;
-  padding: 8px 0;
+  padding: 6px 0;
 }
 
 .sidebar li a:hover {
   text-decoration: underline;
-}
-
-/* Footer Styles */
-footer {
-  background-color: #1E3A8A;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 20px;
 }
 
 For CV:
@@ -442,7 +269,7 @@ For CV:
 	<body>
 <header>
     <div class="container">
-      <h1>John Doe</h1>
+      <h1>Harry Potter</h1>
       <p>Mechanical Engineer | Problem Solver | Innovator</p>
     </div>
   </header>
@@ -470,7 +297,7 @@ For CV:
 
           <div class="cv-item">
             <h3>Mechanical Engineer</h3>
-            <p>XYZ Industries, 2015 - 2020</p>
+            <p>Hogwarts Industries, 2001 - 2020</p>
             <ul>
               <li>Developed energy-efficient solutions</li>
               <li>Conducted extensive product testing</li>
@@ -484,7 +311,7 @@ For CV:
         <section class="cv-section">
           <h3>Skills</h3>
           <ul>
-            <li>3D CAD Design</li>
+            <li>Magic</li>
             <li>Finite Element Analysis</li>
             <li>Project Management</li>
           </ul>
@@ -522,7 +349,7 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #1E3A8A;
+  background-color: #1E5E40;
   color: #fff;
   padding: 20px 0;
   text-align: center;
@@ -548,14 +375,6 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.cv-section h2, .cv-section h3 {
-  color: #1E3A8A;
-}
-
-.cv-section p, .cv-section ul {
-  color: #374151;
-}
-
 .cv-section ul {
   list-style: disc;
   padding-left: 20px;
@@ -566,13 +385,13 @@ header {
   flex: 1;
   background-color: #fff;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar h3 {
   color: #1E3A8A;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 .sidebar ul {
@@ -582,13 +401,4 @@ header {
 
 .sidebar li {
   padding: 8px 0;
-}
-
-/* Footer Styles */
-footer {
-  background-color: #1E3A8A;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-  margin-top: 20px;
 }
